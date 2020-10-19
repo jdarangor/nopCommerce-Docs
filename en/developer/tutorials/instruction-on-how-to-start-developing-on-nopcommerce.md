@@ -115,7 +115,7 @@ After you fill all of this information you need to press "install" button, it wi
 
 ### 4. How to configure nopCommerce to run on HTTPS
 
-In order to set SSL/HTTPS for your nopCommerce you need to go to the property window of `Nop.Web` project under Presentation folder since it is the startup project for nopCommerce. To open property window right click on `Nop.Web` project and at the bottom of the context menu you will see a menu named "Properties", just click on that menu then a property window will appear. In property window navigate to "Debug" tab.
+In order to set SSL/HTTPS for your nopCommerce you need to go to the property window of `Nop.Web` project under Presentation folder since it is the startup project for nopCommerce. To open property window right click on `Nop.Web` project and at the bottom of the context menu you will see a menu named "Properties", just click on that menu then a property window will appear. In property window navigate to "Debug" tab. Be sure you are in IIS Express Profile, otherwise you won't see the "Enable SSL" check box.
 
 ![image4](_static/instruction-on-how-to-start-developing-on-nopcommerce/image4.png)
 
